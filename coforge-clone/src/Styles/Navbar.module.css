@@ -98,7 +98,11 @@
     width: 200px;
     display: none;
 }
-
+.darkNavText{
+    color: yellow;
+    margin-top: 40px;
+    border: 0px solid yellow;
+}
 
 
 

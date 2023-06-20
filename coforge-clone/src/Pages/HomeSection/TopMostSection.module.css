@@ -1,0 +1,33 @@
+.container{
+    background-image:url("https://www.coforge.com/hubfs/Banner-home.jpg");
+    background-blend-mode:color-burn;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 1px solid black;
+    width: 100%;
+    height: 80vh;
+   background-color: rgb(162, 162, 162);
+}
+
+.childOne{
+    text-align: left;
+    border: 0px solid black;
+    width: 50%;
+    height: 30%;
+    margin-top: 3%;
+    margin-left: 11%;
+    color: #fff;
+}
+
+.childTwo{
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+    margin-left: 11%;
+    background-color: #082340;
+    color: #fff;
+    border-radius: 10px;
+}

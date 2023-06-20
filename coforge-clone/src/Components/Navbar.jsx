@@ -53,7 +53,7 @@ const Navbar = () => {
                   handleLeave1()
                 }}  >
 
-                   <NavLink  to='/about' > <p className={styles.navText} >About Us</p></NavLink>
+                   <NavLink  to='/about' > <p className={state ? styles.navText : styles.darkNavText} >About Us</p></NavLink>
 
                      {drop1 &&  <div className={styles.dropDown}>
                         <p>Board of Directors</p>
@@ -73,7 +73,7 @@ const Navbar = () => {
                   handleLeave2()
                 }}   >
 
-                   <NavLink  to='/industries' > <p className={styles.navText} >Industries</p></NavLink>
+                   <NavLink  to='/industries' > <p className={state ? styles.navText : styles.darkNavText} >Industries</p></NavLink>
 
                      {drop2 &&  <div className={styles.dropDown}>
                         <p>Insurance</p>
@@ -93,7 +93,7 @@ const Navbar = () => {
                   handleLeave3()
                 }}   >
 
-                   <NavLink  to='/services' > <p className={styles.navText} >Services</p></NavLink>
+                   <NavLink  to='/services' > <p className={state ? styles.navText : styles.darkNavText} >Services</p></NavLink>
 
                      {drop3 &&  <div className={styles.dropDown}>
                         <p>Digital</p>
@@ -120,7 +120,7 @@ const Navbar = () => {
                   handleLeave4()
                 }}   >
 
-                   <NavLink  to='/resources' > <p className={styles.navText} >Resources</p></NavLink>
+                   <NavLink  to='/resources' > <p className={state ? styles.navText : styles.darkNavText} >Resources</p></NavLink>
 
                      {drop4 &&  <div className={styles.dropDown}>
                         <p>Brochures</p>
@@ -142,7 +142,7 @@ const Navbar = () => {
                   handleLeave5()
                 }}   >
 
-                   <NavLink  to='/investors' > <p className={styles.navText} >Investors</p></NavLink>
+                   <NavLink  to='/investors' > <p className={state ? styles.navText : styles.darkNavText} >Investors</p></NavLink>
 
                      {/* {drop5 &&  <div className={styles.dropDown}></div>} */}
                   </div>
@@ -155,7 +155,7 @@ const Navbar = () => {
                   handleLeave6()
                 }}   >
 
-                   <NavLink  to='/newsroom' > <p className={styles.navText} >Newsroom</p></NavLink>
+                   <NavLink  to='/newsroom' > <p className={state ? styles.navText : styles.darkNavText} >Newsroom</p></NavLink>
 
                      {/* {drop6 &&  <div className={styles.dropDown}></div>} */}
                   </div>
@@ -168,7 +168,7 @@ const Navbar = () => {
                   handleLeave7()
                 }}   >
 
-                   <NavLink  to='/careers' > <p className={styles.navText} >Careers</p></NavLink>
+                   <NavLink  to='/careers' > <p className={state ? styles.navText : styles.darkNavText} >Careers</p></NavLink>
 
                      {/* {drop7 &&  <div className={styles.dropDown}></div>} */}
                   </div>
@@ -181,7 +181,7 @@ const Navbar = () => {
                   handleLeave8()
                 }}   >
 
-                   <NavLink  to='/contact' > <p className={styles.navText} >Contact Us</p></NavLink>
+                   <NavLink  to='/contact' > <p className={state ? styles.navText : styles.darkNavText} >Contact Us</p></NavLink>
 
                      {/* {drop8 &&  <div className={styles.dropDown}></div>} */}
                   </div>                      
