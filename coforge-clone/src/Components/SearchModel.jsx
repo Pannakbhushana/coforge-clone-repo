@@ -1,5 +1,5 @@
 import React from 'react';
-import { SearchIcon,CloseIcon,Search2Icon } from '@chakra-ui/icons';
+import { SearchIcon,CloseIcon } from '@chakra-ui/icons';
 import { Input } from '@chakra-ui/react'
 
 
@@ -8,12 +8,8 @@ import {
     ModalOverlay,
     ModalContent,
     ModalHeader,
-    ModalFooter,
     ModalBody,
-    ModalCloseButton,
-    Button,
     useDisclosure ,
-    Text,
 
   } from '@chakra-ui/react'
 

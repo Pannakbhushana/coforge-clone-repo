@@ -7,10 +7,8 @@ import { ThemeContext } from '../Context/ThemeContext';
 import {
     Drawer,
     DrawerBody,
-    DrawerHeader,
     DrawerOverlay,
     DrawerContent,
-    Button,
     useDisclosure,
   } from '@chakra-ui/react'
 
