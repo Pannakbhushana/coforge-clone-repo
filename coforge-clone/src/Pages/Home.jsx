@@ -3,6 +3,7 @@ import styles from "../Styles/Home.module.css";
 import { useContext } from 'react';
 import { ThemeContext } from '../Context/ThemeContext';
 import TopMostSection from '../HomeComponents/TopMostSection';
+import SecondComponent from '../HomeComponents/SecondComponent';
 
 
 
@@ -24,6 +25,7 @@ const Home = () => {
       </div>
       
       <TopMostSection/>
+      <SecondComponent/>
     </>
   )
 }

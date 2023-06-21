@@ -74,19 +74,20 @@
 @media all and (min-width:680px) and (max-width:1024px){
     .container{
         background-size:contain;
+        height: 36vh;
     }
 
     .childOne{ 
-        border: 1px solid black;
+        border: 0px solid black;
         width: 70%;
-        height: 8%;
+        height: 15%;
         margin-top: 15%;
         margin-left: 6%;
     }
     
     .childTwo{
         width: 30%;
-        height: 15%;
+        height: 35%;
         margin-top: 3%;
         margin-left: 6%;
     }
