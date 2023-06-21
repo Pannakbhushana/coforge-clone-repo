@@ -75,6 +75,14 @@
     .navBar{
         display: none;
     }
+
+    .childTwo{
+        width: 22%;
+    }
+
+    .darkChildTwo{
+        width: 22%;
+    }
 }
 
 
@@ -119,6 +127,8 @@
     }
 }
 
+
+/* extraLarge screen */
 
 @media all and (min-width:1024px) and (max-width:2500px){
    .image{

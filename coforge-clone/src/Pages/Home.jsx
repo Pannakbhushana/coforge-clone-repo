@@ -2,7 +2,8 @@ import React from 'react'
 import styles from "../Styles/Home.module.css";
 import { useContext } from 'react';
 import { ThemeContext } from '../Context/ThemeContext';
-import TopMostSection from './HomeSection/TopMostSection';
+import TopMostSection from '../HomeComponents/TopMostSection';
+
 
 
 

@@ -1,0 +1,166 @@
+.container{
+    background-image:url("https://www.coforge.com/hubfs/Banner-home.jpg");
+    background-blend-mode:color-burn;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 1px solid black;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(162, 162, 162);
+}
+
+.childOne{
+    text-align: left;
+    border: 0px solid black;
+    width: 50%;
+    height: 30%;
+    margin-top: 3%;
+    margin-left: 11%;
+    color: #fff;
+}
+
+.childTwo{
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+    margin-left: 11%;
+    background-color: #082340;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.childOneText{
+    line-height: 80px;
+    font-weight: bold;
+    font-size:80px ;
+}
+
+.childTwoText{
+    line-height: 40px;
+    font-size:30px ;
+}
+
+
+
+/* dark */
+.darkChildTwo{
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+    margin-left: 11%;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* medium screen */
+@media all and (min-width:680px) and (max-width:1024px){
+    .container{
+        background-size:contain;
+    }
+
+    .childOne{ 
+        border: 1px solid black;
+        width: 70%;
+        height: 8%;
+        margin-top: 15%;
+        margin-left: 6%;
+    }
+    
+    .childTwo{
+        width: 30%;
+        height: 15%;
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+
+    .childOneText{
+        line-height: 80px;
+        font-weight: bold;
+        font-size:40px ;
+    }
+    
+    .childTwoText{
+        line-height: 30px;
+        font-size:18px ;
+        font-weight: bold;
+    }
+
+    .darkChildTwo{
+        width: 30%;
+        height: 15%;
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+}
+
+
+
+
+
+/* small screen */
+@media all and (min-width:320px) and (max-width:679px){
+    .container{
+        border: 1px solid red;
+        background-image: url('https://www.coforge.com/hubfs/Banner-home.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .childOne{ 
+        border: 0px solid black;
+        width: 50%;
+        height: 25%;
+        margin-top: 25%;
+        margin-left: 15%;
+    }
+    
+    .childTwo{
+        border: 0px solid black;
+        width: 50%;
+        height: 20%;
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+
+    .darkChildTwo{
+        border: 0px solid black;
+        width: 50%;
+        height: 20%;
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+
+    .childOneText{
+        line-height: 60px;
+        font-weight: bold;
+        font-size:40px ;
+    }
+    
+    .childTwoText{
+        line-height: 25px;
+        font-size:18px ;
+        font-weight: bold;
+    }
+
+}
