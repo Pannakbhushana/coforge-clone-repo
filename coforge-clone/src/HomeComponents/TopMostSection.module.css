@@ -84,12 +84,21 @@
         margin-top: 15%;
         margin-left: 6%;
     }
+
+    .darkChildTwo{
+        width: 30%;
+        height: 35%;
+        margin-top: 3%;
+        padding-bottom: 18%;
+        background-color: black;
+    }
     
     .childTwo{
         width: 30%;
         height: 35%;
         margin-top: 3%;
         margin-left: 6%;
+        padding-bottom: 18%;
     }
 
     .childOneText{
@@ -106,7 +115,7 @@
 
     .darkChildTwo{
         width: 30%;
-        height: 15%;
+        height: 30%;
         margin-top: 3%;
         margin-left: 6%;
     }
@@ -116,10 +125,12 @@
 
 
 
+
+
 /* small screen */
 @media all and (min-width:320px) and (max-width:679px){
     .container{
-        border: 1px solid red;
+        border: 1px solid black;
         background-image: url('https://www.coforge.com/hubfs/Banner-home.jpg');
         background-size: cover;
         background-repeat: no-repeat;

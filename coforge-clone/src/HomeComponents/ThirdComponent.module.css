@@ -1,0 +1,152 @@
+.container{
+   
+    border: 0px solid black;
+    width: 100%;
+    height: 65vh;
+    background-color: #fff;
+    text-align: left;
+}
+
+.childOne{
+    border: 0px solid black;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 30%
+}
+
+.childOneText{
+    text-align: left;
+    /* line-height: 80px; */
+    font-weight: bold;
+    font-size:30px ;
+}
+
+.childTwo{
+    border: 0px solid black;
+    margin-left: 10%;
+    width: 80%;
+    height: 70%;
+    display: flex;
+}
+
+.subchildTwo{
+    border: 0px solid black;
+    width: 15%;
+    height: 70%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+
+
+/*Dark Container */
+
+.darkContainer{
+    
+    margin-top: -6%;
+    border: 0px solid black;
+    width: 100%;
+    height: 65vh;
+    background-color: #222;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+
+
+
+/* medium screen */
+@media all and (min-width:680px) and (max-width:1024px){
+    .darkContainer{
+        border: 0px solid black;
+        width: 100%;
+        height: 35vh;
+        background-color: #fff;
+        text-align: left;
+        background-color: #222;
+    }
+
+    .container{
+        border: 0px solid black;
+        width: 100%;
+        height: 35vh;
+        background-color: #fff;
+        text-align: left;
+    }
+
+    .childOne{
+        border: 0px solid black;
+        margin-left:5%;
+        width: 100%;
+        height: 40%
+    }
+
+    .childTwo{
+        border: 0px solid black;
+        margin-left: 0%;
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+
+    .subchildTwo{
+        border: 0px solid black;
+        width: 15%;
+        height: 80%;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+
+}
+
+
+
+
+
+/* small screen */
+@media all and (min-width:320px) and (max-width:679px){
+    .darkContainer{
+        margin-top: -6%;
+        border: 0px solid black;
+        width: 100%;
+        height: 30vh;
+        background-color: #fff;
+        text-align: left;
+        background-color: #222;
+    }
+  
+    .container{
+        border: 0px solid black;
+        width: 100%;
+        height: 30vh;
+        background-color: #fff;
+        text-align: left;
+    }
+
+    .childOne{
+        border: 0px solid black;
+        margin-left:5%;
+        width: 100%;
+        height: 40%
+    }
+
+    .childTwo{
+        border: 0px solid black;
+        margin-left: 0%;
+        width: 100%;
+        height: 40%;
+        display: flex;
+    }
+
+    .subchildTwo{
+        border: 0px solid black;
+        width: 15%;
+        height: 80%;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+
+}

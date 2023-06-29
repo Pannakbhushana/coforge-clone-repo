@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../Context/ThemeContext';
 import TopMostSection from '../HomeComponents/TopMostSection';
 import SecondComponent from '../HomeComponents/SecondComponent';
+import ThirdComponent from '../HomeComponents/ThirdComponent';
 
 
 
@@ -26,6 +27,7 @@ const Home = () => {
       
       <TopMostSection/>
       <SecondComponent/>
+      <ThirdComponent/>
     </>
   )
 }
